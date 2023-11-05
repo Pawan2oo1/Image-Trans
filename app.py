@@ -14,7 +14,7 @@ def read_uploaded_image(uploaded_image):
 
 # Main Streamlit app
 def main():
-  st.title("Image Transformations App")
+  st.title("IMAGE TRANSFORMATION WEBAPP")
 
 uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
